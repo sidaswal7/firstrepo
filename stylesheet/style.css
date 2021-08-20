@@ -1,0 +1,204 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.4;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.head {
+    text-align: center;
+    height: 40px;
+    background-color: rgb(9, 21, 124);
+    padding-top: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#green-font {
+    color: rgb(42, 208, 49);
+}
+#white-font {
+    color: white;
+}
+h1 {
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 30px;
+}
+h2 {
+    text-align: center;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.top {
+    text-align: center;
+}
+.bot {
+    text-align: center;
+}
+.first-box {
+    width: 200px;
+    height: 200px;
+    background-color: #99D8CA;
+    border: 8px solid #0D1430;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 0px 15px #5873e2, 0px 0px 0px 15px #90FFA9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.container-box {
+    width: 660px;
+    border:2px solid black;
+    display: inline-block;
+    font-size: 0;
+    margin-top: 20px;
+}
+.circle {
+    width: 20px;
+    height: 20px;
+    background-color: #99D8CA;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.marker-container {
+    text-align: center;
+}
+.two {
+    background-color: #0D1430;
+}
+.three {
+    background-color: #90FFA9;
+}
+.four {
+    background-color: #5873e2;
+}
+hr {
+    width:500px;
+    border-style: dotted;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.child-box {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: grey;
+    display: inline-block;
+}
+.child-border {
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: grey;
+    display: inline-block;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.main-content {
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+h4 {
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(9, 21, 124);
+}
+p {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+img {
+    width: 300px;
+    height: 180px;
+}
+.left-top {
+    width: 400px;
+    display: inline-block;
+}
+.right-top {
+    display: inline-block;
+    width: 400px;
+}
+.upper-top {
+    width: 1000px;
+    margin-bottom: 10px;
+}
+.lower-bot {
+    width: 1000px;
+}
+.left-bot {
+    width: 400px;
+    display: inline-block;
+}
+.right-bot {
+    width: 400px;
+    display: inline-block;
+}
+.read {
+    font-size: 18px;
+    color: lime;
+    text-decoration: underline;
+}
+.read-btn {
+    font-size: 15px;
+    color: white;
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
